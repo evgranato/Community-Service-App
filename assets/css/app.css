@@ -1,5 +1,11 @@
-body {
+html {
     font-family: 'Roboto', sans-serif;
+}
+.loginEntry {
+    border-radius: .5rem !important;
+}
+.navButtons {
+    border-radius: .5rem !important;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
