@@ -1,6 +1,9 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
+body {
+    background-color: rgb(251, 248, 245);
+}
 .loginEntry {
     border-radius: .5rem !important;
 }
@@ -19,8 +22,39 @@ h1 {
     letter-spacing: .1em;
 }
 .navbarGroup {
-    background-color: #118ab2;
+    background-color: rgb(155, 185, 126);
+}
+.formImage {
+    background-image: url('https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+    height: 28em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.homeImage {
+    background-image: url('https://images.unsplash.com/photo-1474649107449-ea4f014b7e9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .homeSearchForm {
-    background-color: #06d6a070;
+    background-color:rgb(251, 248, 245,.8);
+    width: 40% !important;
+}
+/* .searchHome {
+    text-align: center;
+} */
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 2em !important;
+    }
+    .homeSearchLabel {
+        font-size: 1.5em !important;
+    }
+    .homeSearchForm {
+        width: 100% !important;
+    }
 }
